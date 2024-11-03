@@ -1,0 +1,63 @@
+messages:
+  PREFIX: "{S}[{M}Титулы{S}]"
+  MAIN_COLOR: "&x&9&8&6&3&E&7"
+  SECONDARY_COLOR: "&x&D&5&B&3&F&D"
+
+  titleApplied: "{P} {M}Титул {S}[title] {M}успешно установлен!"
+  locked: "{P} {M}Титул недоступен!"
+  configReloaded: '{P} {S}Конфигурация перезагружена'
+  noPermission: '{P}У вас нет прав на вызов данной команды!'
+menu:
+  title: "{M}Титулы"
+  size: 54
+  decoration:
+    item1:
+      material: BLACK_STAINED_GLASS_PANE
+      displayName: "&7Разделитель"
+      lore: []
+      amount: 1
+      slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+  buttons:
+    nextButton:
+      material: SPECTRAL_ARROW
+      displayName: "{M}Cледующая страница"
+      slot:
+        row: 6
+        column: 9
+      lore: []
+      action: "NEXT"
+
+    previousButton:
+      material: SPECTRAL_ARROW
+      displayName: "{M}Предыдущая страница"
+      slot:
+        row: 6
+        column: 8
+      lore: []
+      action: "PREVIOUS"

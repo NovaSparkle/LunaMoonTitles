@@ -1,0 +1,10 @@
+settings:
+  material:
+    unlocked: GREEN_STAINED_GLASS_PANE
+    locked: RED_STAINED_GLASS_PANE
+
+
+titles:
+  origin:
+    displayName: "Оригин"
+    lore: []

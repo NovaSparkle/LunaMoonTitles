@@ -1,0 +1,16 @@
+name: LunaMoonTitles
+version: '${project.version}'
+main: org.example.novasparkle.LunaMoonTitles
+api-version: '1.16'
+depend: [LuckPerms, NBTAPI]
+author: NovaSparkle
+commands:
+  titles:
+    usage: /titles
+    description: No
+    aliases:
+      - tags
+
+permissions:
+  LMTitles.reload:
+    default: op
